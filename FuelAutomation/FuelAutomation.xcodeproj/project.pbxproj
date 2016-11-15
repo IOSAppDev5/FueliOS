@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B08AF35A601CE68F813C76DF /* libPods-FuelAutomation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF8381F3C91C68C4E1CA5E1 /* libPods-FuelAutomation.a */; };
+		F50BBA2C1D93ED7A00E54245 /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50BBA2B1D93ED7A00E54245 /* PDFViewController.m */; };
+		F50BBA321D93EEAD00E54245 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50BBA281D93E00000E54245 /* CoreText.framework */; };
+		F50BBA351D93EF8800E54245 /* PDFRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = F50BBA341D93EF8800E54245 /* PDFRenderer.m */; };
+		F50BBA371D93EFAC00E54245 /* InvoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F50BBA361D93EFAC00E54245 /* InvoiceView.xib */; };
+		F50BBA391D93F40900E54245 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50BBA381D93F40900E54245 /* CoreGraphics.framework */; };
+		F543C2751D8A70D800AB9355 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F543C2741D8A70D800AB9355 /* main.m */; };
+		F543C2781D8A70D800AB9355 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F543C2771D8A70D800AB9355 /* AppDelegate.m */; };
+		F543C27E1D8A70D900AB9355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F543C27C1D8A70D900AB9355 /* Main.storyboard */; };
+		F543C2801D8A70D900AB9355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F543C27F1D8A70D900AB9355 /* Assets.xcassets */; };
+		F543C2831D8A70D900AB9355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F543C2811D8A70D900AB9355 /* LaunchScreen.storyboard */; };
+		F543C28C1D8A71D900AB9355 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F543C28B1D8A71D900AB9355 /* LoginViewController.m */; };
+		F543C28F1D8A824400AB9355 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F543C28E1D8A824400AB9355 /* DashboardViewController.m */; };
+		F543C2921D8A82B000AB9355 /* ScheduleFlightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F543C2911D8A82B000AB9355 /* ScheduleFlightViewController.m */; };
+		F543C2971D8AB4EF00AB9355 /* blue-angels-1524232.png in Resources */ = {isa = PBXBuildFile; fileRef = F543C2961D8AB4EE00AB9355 /* blue-angels-1524232.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3EF8381F3C91C68C4E1CA5E1 /* libPods-FuelAutomation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FuelAutomation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F4E810F604C512A529386F /* Pods-FuelAutomation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuelAutomation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FuelAutomation/Pods-FuelAutomation.debug.xcconfig"; sourceTree = "<group>"; };
+		AF8F9E82055902A8D66E3C2E /* Pods-FuelAutomation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuelAutomation.release.xcconfig"; path = "Pods/Target Support Files/Pods-FuelAutomation/Pods-FuelAutomation.release.xcconfig"; sourceTree = "<group>"; };
+		F50BBA281D93E00000E54245 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		F50BBA2A1D93ED7A00E54245 /* PDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFViewController.h; sourceTree = "<group>"; };
+		F50BBA2B1D93ED7A00E54245 /* PDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFViewController.m; sourceTree = "<group>"; };
+		F50BBA331D93EF8800E54245 /* PDFRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFRenderer.h; sourceTree = "<group>"; };
+		F50BBA341D93EF8800E54245 /* PDFRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFRenderer.m; sourceTree = "<group>"; };
+		F50BBA361D93EFAC00E54245 /* InvoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InvoiceView.xib; sourceTree = "<group>"; };
+		F50BBA381D93F40900E54245 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F543C2701D8A70D800AB9355 /* FuelAutomation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuelAutomation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F543C2741D8A70D800AB9355 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F543C2761D8A70D800AB9355 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F543C2771D8A70D800AB9355 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F543C27D1D8A70D900AB9355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F543C27F1D8A70D900AB9355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F543C2821D8A70D900AB9355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F543C2841D8A70D900AB9355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F543C28A1D8A71D900AB9355 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F543C28B1D8A71D900AB9355 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F543C28D1D8A824300AB9355 /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		F543C28E1D8A824400AB9355 /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		F543C2901D8A82B000AB9355 /* ScheduleFlightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleFlightViewController.h; path = ../ScheduleFlightViewController.h; sourceTree = "<group>"; };
+		F543C2911D8A82B000AB9355 /* ScheduleFlightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleFlightViewController.m; path = ../ScheduleFlightViewController.m; sourceTree = "<group>"; };
+		F543C2961D8AB4EE00AB9355 /* blue-angels-1524232.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-angels-1524232.png"; sourceTree = "<group>"; };
+		F55AE0D01D9E8FCF00D438F7 /* Services.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Services.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F543C26D1D8A70D800AB9355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50BBA391D93F40900E54245 /* CoreGraphics.framework in Frameworks */,
+				F50BBA321D93EEAD00E54245 /* CoreText.framework in Frameworks */,
+				B08AF35A601CE68F813C76DF /* libPods-FuelAutomation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67DD99CA8692D9D5EC0F9841 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94F4E810F604C512A529386F /* Pods-FuelAutomation.debug.xcconfig */,
+				AF8F9E82055902A8D66E3C2E /* Pods-FuelAutomation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A568BF00FDC77827E3526258 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EF8381F3C91C68C4E1CA5E1 /* libPods-FuelAutomation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F543C2671D8A70D800AB9355 = {
+			isa = PBXGroup;
+			children = (
+				F50BBA381D93F40900E54245 /* CoreGraphics.framework */,
+				F50BBA281D93E00000E54245 /* CoreText.framework */,
+				F543C2721D8A70D800AB9355 /* FuelAutomation */,
+				F543C2711D8A70D800AB9355 /* Products */,
+				67DD99CA8692D9D5EC0F9841 /* Pods */,
+				A568BF00FDC77827E3526258 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F543C2711D8A70D800AB9355 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F543C2701D8A70D800AB9355 /* FuelAutomation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F543C2721D8A70D800AB9355 /* FuelAutomation */ = {
+			isa = PBXGroup;
+			children = (
+				F50BBA361D93EFAC00E54245 /* InvoiceView.xib */,
+				F543C2761D8A70D800AB9355 /* AppDelegate.h */,
+				F543C2771D8A70D800AB9355 /* AppDelegate.m */,
+				F55AE0D01D9E8FCF00D438F7 /* Services.h */,
+				F543C28A1D8A71D900AB9355 /* LoginViewController.h */,
+				F543C28B1D8A71D900AB9355 /* LoginViewController.m */,
+				F543C28D1D8A824300AB9355 /* DashboardViewController.h */,
+				F543C28E1D8A824400AB9355 /* DashboardViewController.m */,
+				F543C2901D8A82B000AB9355 /* ScheduleFlightViewController.h */,
+				F543C2911D8A82B000AB9355 /* ScheduleFlightViewController.m */,
+				F543C2961D8AB4EE00AB9355 /* blue-angels-1524232.png */,
+				F50BBA331D93EF8800E54245 /* PDFRenderer.h */,
+				F50BBA341D93EF8800E54245 /* PDFRenderer.m */,
+				F50BBA2A1D93ED7A00E54245 /* PDFViewController.h */,
+				F50BBA2B1D93ED7A00E54245 /* PDFViewController.m */,
+				F543C27C1D8A70D900AB9355 /* Main.storyboard */,
+				F543C27F1D8A70D900AB9355 /* Assets.xcassets */,
+				F543C2811D8A70D900AB9355 /* LaunchScreen.storyboard */,
+				F543C2841D8A70D900AB9355 /* Info.plist */,
+				F543C2731D8A70D800AB9355 /* Supporting Files */,
+			);
+			path = FuelAutomation;
+			sourceTree = "<group>";
+		};
+		F543C2731D8A70D800AB9355 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F543C2741D8A70D800AB9355 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F543C26F1D8A70D800AB9355 /* FuelAutomation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F543C2871D8A70D900AB9355 /* Build configuration list for PBXNativeTarget "FuelAutomation" */;
+			buildPhases = (
+				93B6566C6546AADFEA4989A9 /* [CP] Check Pods Manifest.lock */,
+				F543C26C1D8A70D800AB9355 /* Sources */,
+				F543C26D1D8A70D800AB9355 /* Frameworks */,
+				F543C26E1D8A70D800AB9355 /* Resources */,
+				628FC3D8B85B5C3959E4758D /* [CP] Embed Pods Frameworks */,
+				6C111228230C4AC7189A656E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuelAutomation;
+			productName = FuelAutomation;
+			productReference = F543C2701D8A70D800AB9355 /* FuelAutomation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F543C2681D8A70D800AB9355 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ito;
+				TargetAttributes = {
+					F543C26F1D8A70D800AB9355 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = F3U9WZC6PW;
+					};
+				};
+			};
+			buildConfigurationList = F543C26B1D8A70D800AB9355 /* Build configuration list for PBXProject "FuelAutomation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F543C2671D8A70D800AB9355;
+			productRefGroup = F543C2711D8A70D800AB9355 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F543C26F1D8A70D800AB9355 /* FuelAutomation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F543C26E1D8A70D800AB9355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50BBA371D93EFAC00E54245 /* InvoiceView.xib in Resources */,
+				F543C2831D8A70D900AB9355 /* LaunchScreen.storyboard in Resources */,
+				F543C2971D8AB4EF00AB9355 /* blue-angels-1524232.png in Resources */,
+				F543C2801D8A70D900AB9355 /* Assets.xcassets in Resources */,
+				F543C27E1D8A70D900AB9355 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		628FC3D8B85B5C3959E4758D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FuelAutomation/Pods-FuelAutomation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C111228230C4AC7189A656E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FuelAutomation/Pods-FuelAutomation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93B6566C6546AADFEA4989A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F543C26C1D8A70D800AB9355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F543C2781D8A70D800AB9355 /* AppDelegate.m in Sources */,
+				F50BBA2C1D93ED7A00E54245 /* PDFViewController.m in Sources */,
+				F543C2751D8A70D800AB9355 /* main.m in Sources */,
+				F543C28C1D8A71D900AB9355 /* LoginViewController.m in Sources */,
+				F50BBA351D93EF8800E54245 /* PDFRenderer.m in Sources */,
+				F543C2921D8A82B000AB9355 /* ScheduleFlightViewController.m in Sources */,
+				F543C28F1D8A824400AB9355 /* DashboardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F543C27C1D8A70D900AB9355 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F543C27D1D8A70D900AB9355 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F543C2811D8A70D900AB9355 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F543C2821D8A70D900AB9355 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F543C2851D8A70D900AB9355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "addea225-9ee8-406b-b527-b94c59225aab";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F543C2861D8A70D900AB9355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "addea225-9ee8-406b-b527-b94c59225aab";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F543C2881D8A70D900AB9355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F4E810F604C512A529386F /* Pods-FuelAutomation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FuelAutomation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ito.FuelAutomation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		F543C2891D8A70D900AB9355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF8F9E82055902A8D66E3C2E /* Pods-FuelAutomation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FuelAutomation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ito.FuelAutomation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F543C26B1D8A70D800AB9355 /* Build configuration list for PBXProject "FuelAutomation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F543C2851D8A70D900AB9355 /* Debug */,
+				F543C2861D8A70D900AB9355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F543C2871D8A70D900AB9355 /* Build configuration list for PBXNativeTarget "FuelAutomation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F543C2881D8A70D900AB9355 /* Debug */,
+				F543C2891D8A70D900AB9355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F543C2681D8A70D800AB9355 /* Project object */;
+}
